@@ -1,0 +1,16 @@
+# Core
+numpy>=1.26
+pandas>=2.2.1
+matplotlib>=3.7.1
+tqdm>=4.66.1
+psutil>=5.9.5
+jupyterlab>=4.0
+tiktoken>=0.5.1
+
+# PyTorch
+torch>=2.2.2,<2.6; sys_platform == "darwin" and platform_machine == "x86_64"
+torch>=2.2.2; sys_platform != "darwin" or platform_machine != "x86_64"
+
+# TensorFlow
+tensorflow>=2.16.2; sys_platform == "darwin" and platform_machine == "x86_64"
+tensorflow>=2.18.0; sys_platform != "darwin" or platform_machine != "x86_64"
