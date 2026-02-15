@@ -32,3 +32,4 @@ env/
 # ===== Data =====
 data/
 datasets/
+gpt2
